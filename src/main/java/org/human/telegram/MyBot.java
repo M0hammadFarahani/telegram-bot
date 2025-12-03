@@ -9,12 +9,12 @@ public class MyBot extends TelegramLongPollingBot {
 
     @Override
     public String getBotUsername() {
-        return System.getenv("USERNAME"); 
+        return System.getenv("USERNAME");
     }
 
     @Override
     public String getBotToken() {
-        return System.getenv("TOKEN"); 
+        return System.getenv("TOKEN");
     }
 
     @Override
